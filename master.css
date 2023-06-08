@@ -1,0 +1,81 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main div h1 {
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Aileron', sans-serif;
+
+}
+
+main div a {
+    font-size: 20px;
+    color: black;
+    font-family: 'Aileron', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+main div a:visited {
+    color: black;
+}
+
+main img {
+    width: 700px;
+}
+
+@media screen and (max-width: 1339px) {
+    main img {
+        width: 500px;
+    }
+
+    main div h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1014px) {
+    main img {
+        width: 400px;
+    }
+
+    main div h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    main img {
+        width: 300px;
+    }
+
+    main div h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    main div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    main img {
+        width: 200px;
+    }
+
+    main div h1 {
+        font-size: 40px;
+    }
+}
